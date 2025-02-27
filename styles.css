@@ -450,7 +450,7 @@ footer .social-links a:hover {
 /* Responsive Design */
 @media (max-width: 768px) {
   header {
-    display: none;
+    position: relative ;
   }
 
   nav ul {
