@@ -32,20 +32,6 @@ a:hover {
   color: #FF6584;
 }
 
-/* Dark Mode Toggle */
-.dark-mode-toggle {
-  position: fixed;
-  top: 20px;
-  right: 20px;
-  cursor: pointer;
-  font-size: 1.5rem;
-  color: #6C63FF;
-  z-index: 1000;
-}
-
-.dark-mode-toggle:hover {
-  color: #FF6584;
-}
 
 /* Header */
 header {
@@ -449,19 +435,19 @@ footer .social-links a:hover {
 
 /* Responsive Design */
 @media (max-width: 768px) {
-  header {
-    position: relative ;
+
+  header .logo img {
+    height: 40px;
+    width: 98%;
   }
 
   nav ul {
     flex-direction: column;
     align-items: center;
   }
-
-  nav ul li {
-    margin: 10px 0;
-  }
-
+.home-image{
+  padding-top: 20px;
+}
   .home-content {
     flex-direction: column;
     text-align: center;
@@ -500,6 +486,9 @@ footer .social-links a:hover {
 
   .contact-form {
     width: 100%;
+  }
+  .skill p{
+    text-align: center;
   }
 }
 
