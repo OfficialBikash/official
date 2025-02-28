@@ -435,6 +435,13 @@ footer .social-links a:hover {
 
 /* Responsive Design */
 @media (max-width: 768px) {
+  header {
+  background-image: linear-gradient(120deg, #7ae9a3 0%, #b1c4ce 100%);
+  backdrop-filter: blur(10px);
+  position: relative;
+  width: 100%;
+  top: 0px;
+  }
 
   header .logo img {
     height: 40px;
