@@ -474,6 +474,9 @@ footer .social-links a:hover {
   .about-image img {
     width: 200px;
   }
+  .skill p {
+  font-size: 0.9rem;
+}
 
   .skills-grid {
     grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
@@ -504,7 +507,9 @@ footer .social-links a:hover {
   .home-text p {
     font-size: 1rem;
   }
-
+.skill p {
+  font-size: 0.9rem;
+}
   .about-text p {
     font-size: 1rem;
   }
